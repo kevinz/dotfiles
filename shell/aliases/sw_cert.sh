@@ -2,8 +2,7 @@
 #sw_cert (switch to default cert)
 #sw_cert g (switch to google one)
 sw_cert() {
-cd ~/.ssh
-rm -f id_rsa*
+rm -f ~/.ssh/id_rsa*
 
 PARAM=""
 if [ -n "$1" ]; then
