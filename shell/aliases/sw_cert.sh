@@ -14,9 +14,9 @@ fi
 
 
 if [ "$PARAM" = "g" ]; then
-    cp ~/.ssh/common/* .
+    cp ~/.ssh/common/* ~/.ssh/
 elif [ "$PARAM" = "ericsson" ]; then
-    cp ~/.ssh/ericsson/* .
+    cp ~/.ssh/ericsson/* ~/.ssh/
 
 else
     echo "Append by g or nothing.\n"
