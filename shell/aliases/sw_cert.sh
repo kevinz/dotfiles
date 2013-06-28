@@ -14,8 +14,10 @@ fi
 
 
 if [ "$PARAM" = "g" ]; then
+    echo "in g case\n"
     cp ~/.ssh/common/* ~/.ssh/
 elif [ "$PARAM" = "ericsson" ]; then
+    echo "in e case\n"
     cp ~/.ssh/ericsson/* ~/.ssh/
 
 else
